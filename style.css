@@ -69,6 +69,7 @@ section p {
 
 section#Home {
     background: url(images/Home.jpg) no-repeat center center/cover;
+    position: relative;
 }
 
 section#Home:after {
@@ -77,8 +78,8 @@ section#Home:after {
     top: 0;
     left: 0;
     width: 100%;
-    height: 108.5%;
-    background-image: linear-gradient(to bottom right, red, blue);
+    height: 100%;
+    background-color: rgba(0, 0, 0, 1);
     opacity: 0.6;
   }
 
