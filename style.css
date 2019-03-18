@@ -109,3 +109,21 @@ section#Service {
 section#Contact {
     background: url(images/Contact.jpg) no-repeat center center/cover;
 }
+
+@media only screen and (max-width: 500px) {
+    .navbar a {
+        flex-direction: column;
+    }
+    .navbar {
+      display: block;
+      height: auto;
+      position: relative;
+    }
+    .navbar ul{
+        display: inline-block;
+        text-align: center;
+
+    }
+
+
+}
